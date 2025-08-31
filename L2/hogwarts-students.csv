@@ -1,0 +1,51 @@
+Student ID,First Name,Last Name,Email,Major,GPA,Credit Hours,House
+1001,Harry,Potter,hpotter@hogwarts.edu,Defense Against Dark Arts,3.4,78,Gryffindor
+1002,Hermione,Granger,hgranger@hogwarts.edu,Ancient Runes & Literature,3.95,102,Gryffindor
+1003,Ronald,Weasley,rweasley@hogwarts.edu,Strategic Games & Recreation,2.8,65,Gryffindor
+1004,Luna,Lovegood,llovegood@hogwarts.edu,Cryptozoology & Journalism,3.6,89,Ravenclaw
+1005,Neville,Longbottom,nlongbottom@hogwarts.edu,Botanical Sciences,3.7,94,Gryffindor
+1006,Ginny,Weasley,gweasley@hogwarts.edu,Athletic Performance & Leadership,3.5,81,Gryffindor
+1007,Draco,Malfoy,dmalfoy@hogwarts.edu,Political Science & Economics,3.2,76,Slytherin
+1008,Cedric,Diggory,cdiggory@hogwarts.edu,Athletic Performance & Leadership,3.8,88,Hufflepuff
+1009,Cho,Chang,cchang@hogwarts.edu,Aeronautical Engineering,3.4,92,Ravenclaw
+1010,Lavender,Brown,lbrown@hogwarts.edu,Divination & Psychology,2.9,72,Gryffindor
+1011,Parvati,Patil,ppatil@hogwarts.edu,Divination & Psychology,3.1,74,Gryffindor
+1012,Padma,Patil,padpatil@hogwarts.edu,Arithmancy & Mathematics,3.6,96,Ravenclaw
+1013,Dean,Thomas,dthomas@hogwarts.edu,Fine Arts & Design,3.3,83,Gryffindor
+1014,Seamus,Finnigan,sfinnigan@hogwarts.edu,Chemistry & Explosive Sciences,2.7,69,Gryffindor
+1015,Oliver,Wood,owood@hogwarts.edu,Athletic Performance & Leadership,3.2,77,Gryffindor
+1016,Fred,Weasley,fweasley@hogwarts.edu,Entrepreneurship & Innovation,3,68,Gryffindor
+1017,George,Weasley,gweasley2@hogwarts.edu,Entrepreneurship & Innovation,3,68,Gryffindor
+1018,Percy,Weasley,pweasley@hogwarts.edu,Public Administration,3.9,108,Gryffindor
+1019,Bill,Weasley,bweasley@hogwarts.edu,Ancient Civilizations & Archaeology,3.7,112,Gryffindor
+1020,Charlie,Weasley,cweasley@hogwarts.edu,Magical Creature Studies,3.5,98,Gryffindor
+1021,Fleur,Delacour,fdelacour@beauxbatons.edu,International Relations,3.8,86,Beauxbatons
+1022,Viktor,Krum,vkrum@durmstrang.edu,Athletic Performance & Leadership,3.1,75,Durmstrang
+1023,Katie,Bell,kbell@hogwarts.edu,Athletic Performance & Leadership,3.4,82,Gryffindor
+1024,Alicia,Spinnet,aspinnet@hogwarts.edu,Athletic Performance & Leadership,3.3,79,Gryffindor
+1025,Angelina,Johnson,ajohnson@hogwarts.edu,Athletic Performance & Leadership,3.6,85,Gryffindor
+1026,Lee,Jordan,ljordan@hogwarts.edu,Communications & Broadcasting,3.2,80,Gryffindor
+1027,Colin,Creevey,ccreevey@hogwarts.edu,Photography & Media Arts,3,71,Gryffindor
+1028,Dennis,Creevey,dcreevey@hogwarts.edu,Photography & Media Arts,2.8,58,Gryffindor
+1029,Ernie,Macmillan,emacmillan@hogwarts.edu,Political Science & Economics,3.4,87,Hufflepuff
+1030,Hannah,Abbott,habbott@hogwarts.edu,Hospitality & Culinary Arts,3.2,73,Hufflepuff
+1031,Susan,Bones,sbones@hogwarts.edu,Criminal Justice & Law,3.5,91,Hufflepuff
+1032,Justin,Finch-Fletchley,jfinch@hogwarts.edu,Muggle Studies & Sociology,3.3,84,Hufflepuff
+1033,Anthony,Goldstein,agoldstein@hogwarts.sedu,Arithmancy & Mathematics,3.7,95,Ravenclaw
+1034,Michael,Corner,mcorner@hogwarts.edu,Philosophy & Logic,3.4,88,Ravenclaw
+1035,Terry,Boot,tboot@hogwarts.edu,Ancient Runes & Literature,3.6,93,Ravenclaw
+1036,Marietta,Edgecombe,medgecombe@hogwarts.edu,Communications & Broadcasting,2.6,67,Ravenclaw
+1037,Zacharias,Smith,zsmith@hogwarts.edu,Athletic Performance & Leadership,2.9,70,Hufflepuff
+1038,Blaise,Zabini,bzabini@hogwarts.edu,Fashion & Luxury Business,3.1,76,Slytherin
+1039,Pansy,Parkinson,pparkinson@hogwarts.edu,Fashion & Luxury Business,2.8,64,Slytherin
+1040,Theodore,Nott,tnott@hogwarts.edu,Dark Arts History,3.3,82,Slytherin
+1041,Vincent,Crabbe,vcrabbe@hogwarts.edu,Physical Education,2.2,52,Slytherin
+1042,Gregory,Goyle,ggoyle@hogwarts.edu,Physical Education,2.1,48,Slytherin
+1043,Millicent,Bulstrode,mbulstrode@hogwarts.edu,Physical Education,2.5,61,Slytherin
+1044,Marcus,Flint,mflint@hogwarts.edu,Athletic Performance & Leadership,2.7,74,Slytherin
+1045,Adrian,Pucey,apucey@hogwarts.edu,Athletic Performance & Leadership,3,78,Slytherin
+1046,Cassius,Warrington,cwarrington@hogwarts.edu,Athletic Performance & Leadership,2.9,76,Slytherin
+1047,Graham,Montague,gmontague@hogwarts.edu,Athletic Performance & Leadership,2.8,72,Slytherin
+1048,Romilda,Vane,rvane@hogwarts.edu,Chemistry & Potion Making,3.1,79,Gryffindor
+1049,Cormac,McLaggen,cmclaggen@hogwarts.edu,Athletic Performance & Leadership,2.6,68,Gryffindor
+1050,Lavender,Brown,lbrown2@hogwarts.edu,Divination & Psychology,2.9,71,Gryffindor
