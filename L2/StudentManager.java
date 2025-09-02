@@ -1,6 +1,6 @@
 /*
 javac StudentDriver.java
-java MovieDriver
+java StudentDriver hogwarts-students.csv
 */
 
 import java.util.ArrayList; 
@@ -57,20 +57,103 @@ class CSVProcessor{
 
 
 
-    public static double[] extractNumericColumn(String[][] inputColumnData, int inputColumnIndex) {
+    public static String[][] analyzeColumnProperties(String[][] inputColumnData, int inputColumnIndex) {
+        String[][] returnColumnPropertiesArray = new String[1][1];
+        columnLengthCounter=0
+
+        if((inputColumnData[0][inputColumnIndex]).equalsIgnoreCase(student id) || (inputColumnData[0][inputColumnIndex]).equalsIgnoreCase(credit hours)) {
+            returnColumnPropertiesArray[0]="int";
+
+             for(int x = 0; x < inputColumnData.length; x++) {
+                try {
+                    Integer.parseInteger(inputColumnData[x][inputColumnIndex]);
+                    columnLengthCounter++;
+                }
+                catch(NumberFormatException excpt) {
+                    System.out.println("Error: invalid data type: " + inputColumnData[x][inputColumnIndex]);
+                }
+            }
+            returnColumnPropertiesArray[0][0]=Integer.toString(columnLengthCounter);
+            return returnColumnPropertiesArray;
+        }
+
+        
+        else if((inputColumnData[0][inputColumnIndex]).equalsIgnoreCase("first name") || (inputColumnData[0][inputColumnIndex]).equalsIgnoreCase("last name") || (inputColumnData[0][inputColumnIndex]).equalsIgnoreCase("email") || (inputColumnData[0][inputColumnIndex]).equalsIgnoreCase("major") || (inputColumnData[0][inputColumnIndex]).equalsIgnoreCase("house")) {
+            returnColumnPropertiesArray[0]="string";
+                for(int x = 0; x < inputColumnData.length; x++) {
+                    try {
+                        Integer.parseInteger(inputColumnData[x][inputColumnIndex]);
+                        System.out.println("Error: invalid data type: " + inputColumnData[x][inputColumnIndex]);
+                    }
+                    catch(NumberFormatException excpt) {
+                        columnLengthCounter++;               
+                    }
+                }
+            returnColumnPropertiesArray[0]0]=Integer.toString(columnLengthCounter);
+            return returnColumnPropertiesArray;
+
+        }
+        
+        else if((inputColumnData[0][inputColumnIndex]).equalsIgnoreCase("gpa")) {
+            returnColumnPropertiesArray[0]="double";
+            for(int x = 0; x < inputColumnData.length; x++) {
+                try {
+                    Double.parseDouble(inputColumnData[x][inputColumnIndex]);
+                    columnLengthCounter++;
+                }
+                catch(NumberFormatException excpt) {
+                    System.out.println("Error: invalid data type: " + inputColumnData[x][inputColumnIndex]);
+                }
+            }
+            returnColumnPropertiesArray[0][0]=Double.toString(columnLengthCounter);
+            return returnColumnPropertiesArray;
+        }
+        
+        else {
+            System.out.println("Data title does not match what is supposed to be there")
+            return null
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    public static double[] createColumnArray(String[][] inputColumnData, int inputColumnIndex, String[][] inputColumnProperties) {
         int numericDataCounter=0;
+        int currentColumnLength=inputColumnProperties[1];
+        String currentColumnDataType=inputColumnProperties[1][1];
+        
+        if(currentColumnDataType.equalsIgnoreCase("int")) {
+            int returnColumnArray[] = new int[currentColumnLength];
+        }
+
+        else if(currentColumnDataType.equalsIgnoreCase("string")) {
+            String returnColumnArray[] = new String[currentColumnLength];
+        }
+        
+
+
+
+
+
+
+
 
         for(int x = 0; x < inputColumnData.length; x++) {
             try{
                 Double.parseDouble(inputColumnData[x][inputColumnIndex]);
-                numericDataCounter++;
+                
             }
-            catch(NumberFormatException excpt){}
+            catch(NumberFormatException excpt){
+                System.out.println("Error: invalid data");
         }
-
-        double columnArray[] = new double[numericDataCounter];
-
-        numericDataCounter=0;
+        }
 
         for(int x = 0; x < inputColumnData.length; x++) {
             try{
@@ -156,12 +239,23 @@ public class StudentManager{
             System.out.printf("\nStandard deviation: "+"%.3f",standardDeviation);
         }
     }
+
+
+
+
+
+
 	public static void main (String [] args){
 		Movie jaws=new Movie("Jaws", 1975, "Universal Pictures");
 		Movie highschoolmusical=new Movie("High School Musical", 2006, "Disney Channel");
 		Movie moonstruck=new Movie("Moonstruck", 1987, "Metro-Goldwyn-Mayer");
 		Movie airbuddies=new Movie("Air Buddies", 2006, "Air Bud Entertainment");
 		Movie toystory=new Movie("Toy Story", 1995, "Pixar");
+
+/*IMPORTANT THIS IS THERE YOU LEFT OFF ------------------------------------*/
+        for xxxx{
+            student arraylist0=new student(x xxx xxxx)
+        }
 
 		ArrayList<Movie> movies=new ArrayList<Movie>();
 		movies.add(jaws);
